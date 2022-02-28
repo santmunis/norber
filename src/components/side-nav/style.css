@@ -1,0 +1,30 @@
+.content-wrapper {
+    background-color: #ffffff;
+    list-style: none;
+    width: 70%;
+    padding: 0;
+}
+
+.content-item-wrapper {
+    color: #afc4d0;
+    height: 50px;
+    padding: 6px;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+}
+
+.content-item {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-item-wrapper:hover {
+    border-bottom: 1px solid #bbbbbb;
+}
+
+.content-item-wrapper:hover>.content-item {
+    background-color: #f3f6f9;
+}

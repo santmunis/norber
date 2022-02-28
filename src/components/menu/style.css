@@ -1,0 +1,25 @@
+.btn-transparent {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    padding: 0 !important;
+}
+
+.section-mananger-icon {
+    margin-right: 10px;
+}
+
+.div-flex {
+    display: flex;
+    gap: 10px;
+}
+
+.div-center {
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 820px) {
+    .logo {
+        display: none;
+    }
+}
